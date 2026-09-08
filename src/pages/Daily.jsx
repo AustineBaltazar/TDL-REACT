@@ -54,7 +54,7 @@ function Daily() {
             placeholder="Enter your task"
           />
           <button type="submit" className="task-button">
-            Add Task
+            Add Task here
           </button>
         </form>
 
