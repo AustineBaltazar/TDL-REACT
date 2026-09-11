@@ -25,6 +25,16 @@ export default function HomeSidebar() {
           <span className="nav-icon">D</span>
         </NavLink>
         <NavLink
+          to="/important"
+          end
+          className={({ isActive }) =>
+            `home-sidebar-link ${isActive ? "active" : ""}`
+          }
+        >
+          <span>Important</span>
+          <span className="nav-icon">I</span>
+        </NavLink>
+        <NavLink
           to="/weekly"
           className={({ isActive }) =>
             `home-sidebar-link ${isActive ? "active" : ""}`
